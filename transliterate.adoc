@@ -1,0 +1,15 @@
+== Bash
+
+[source,bash]
+-------------
+var=$(echo "Hello World!" | tr eo EO)
+-------------
+
+== Groovy 
+
+[source,groovy]
+---------------
+println("Hello world".tr('eo', 'EO'))
+---------------
+
+http://mrhaki.blogspot.fr/2010/06/groovy-goodness-text-translation.html
